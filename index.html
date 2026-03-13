@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Byebire Tour and Travel</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<script>
+tailwind.config = {
+theme: {
+extend: {
+    colors: {
+        primary: "#0e350a",
+        secondary: "#3aa1dd",
+        accent: "#ff7837",
+        light: "#f8f9f2"
+    },
+    backgrondImage:{
+        'hero-pattern': "url('img/Background/mt-muhabura.jpg')",
+        'footer-texture': "url('/img/footer-texture.png')"
+    },
+    fontFamily:{
+        Montserrat: ['Montserrat'],
+        Roboto:['Roboto']
+    }
+}
+}
+}
+</script>
+
+</head>
+
+<body class="bg-light text-gray-800">
+
+<!-- NAVBAR -->
+
+<nav class="bg-white p-4">
+<div class="container mx-auto flex justify-between">
+    <div class="flex justify-between">
+        <div class="flex"><img src="img/logos/BYEBIRE-logo.png" height="50px" width="50px"></div>
+        <div class="flex px-4"><h1 class="font-bold text-primary text-3xl">BYEBIRE TOUR & TRAVEL</h1></div>
+    </div>
+
+
+<ul class="flex space-x-6">
+<li><a href="#">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#destinations">Destinations</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+
+</div>
+</nav>
+
+
+<!-- HERO -->
+
+<section class="text-white py-24 text-center bg-cover" style="background-image: url('img/Background/mountains.webp');">
+<div class="max-w-xl mx-auto bg-light/50 p-8 shadow-lg  text-primary">
+    <h2 class="text-4xl font-bold mb-4 text-primary">
+    Explore Uganda With Us
+    </h2>
+
+    <p class="max-w-2xl mx-auto">
+    Experience wildlife safaris, adventure tourism, and unforgettable corporate getaways across Uganda.
+    </p>
+
+<button class="mt-6 bg-accent px-6 py-3 rounded-lg text-white font-semibold">
+Book a Tour
+</button>
+</div>
+
+
+</section>
+
+
+<!-- ABOUT -->
+
+<section id="about" class="py-16 container mx-auto px-6">
+
+<h2 class="text-3xl font-bold text-primary mb-6">
+About Us
+</h2>
+
+<p>
+Byebire Tour and Travel Co. Limited is a Uganda-based tourism company located in Kyengera, Wakiso District. We specialize in wildlife safaris, adventure tourism, and customized travel experiences across Uganda’s most beautiful destinations.
+</p>
+
+</section>
+
+
+<!-- SERVICES -->
+
+<section id="services"class="py-16 bg-cover" style="background-image: url('img/Background/canoe.webp');">
+    <div class="bg-light/40 py-16">
+        <div class="container mx-auto px-6">
+
+        <h2 class="text-3xl font-bold text-center text-primary mb-10">
+        Our Services
+        </h2>
+
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-light rounded-xl shadow-lg overflow-hidden">
+                <img src="img/services/gorillatracking.webp" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2">Gorilla Trekking</h3>
+                    <p class="text-gray-600">Gorilla tracking, chimpanzee trekking, and game drives in Uganda’s national parks.</p>
+                </div>
+            </div>
+
+        <div class="bg-light rounded-xl shadow-lg overflow-hidden">
+            <img src="img/services/adventure-tours.webp" class="w-full h-48 object-cover">
+            <div class="p-6">
+                <h3 class="text-xl font-semibold mb-2">Adventure Tours</h3>
+                <p class="text-gray-600">Rafting, hiking, mountain climbing, and thrilling outdoor experiences.</p>
+            </div>
+        </div>
+
+        <div class="bg-light rounded-xl shadow-lg overflow-hidden">
+            <img src="img/services/coporategetaway.webp" class="w-full h-48 object-cover">
+            <div class="p-6">
+                <h3 class="text-xl font-semibold mb-2">Corporate Getaways</h3>
+                <p class="text-gray-600">Team building retreats and company travel experiences.</p>
+            </div>
+        </div>
+
+        <div class="bg-light rounded-xl shadow-lg overflow-hidden">
+            <img src="img/services/culturaltours.webp" class="w-full h-48 object-cover">
+            <div class="p-6">
+                <h3 class="text-xl font-semibold mb-2">Cultural Tours</h3>
+                <p class="text-gray-600">Discover authentic Ugandan traditions, dances, and local communities.</p>
+            </div>
+        </div>
+
+        <div class="bg-light rounded-xl shadow-lg overflow-hidden">
+            <img src="img/services/carhire.webp" class="w-full h-48 object-cover">
+            <div class="p-6">
+                <h3 class="text-xl font-semibold mb-2">Car Hire</h3>
+                <p class="text-gray-600">Comfortable and reliable transport for tourists and groups.</p>
+            </div>
+        </div>
+
+        <div class="bg-light rounded-xl shadow-lg overflow-hidden">
+            <img src="img/services/hotelbooking.webp" class="w-full h-48 object-cover">
+            <div class="p-6">
+                <h3 class="text-xl font-semibold mb-2">Hotel Booking</h3>
+                <p class="text-gray-600">Affordable and luxury accommodation arrangements.</p>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+</section>
+
+
+<!-- DESTINATIONS -->
+
+<section id="destinations" class="py-16 bg-light">
+
+<div class="container mx-auto px-6">
+
+<h2 class="text-3xl font-bold text-primary text-center mb-10">
+Popular Destinations
+</h2>
+
+<div class="grid md:grid-cols-3 gap-8">
+
+<div class="bg-white shadow-lg p-4">
+<h3 class="font-bold">Bwindi Impenetrable National Park</h3>
+<p>Home of the famous mountain gorillas.</p>
+</div>
+
+<div class="bg-white shadow-lg p-4">
+<h3 class="font-bold">Queen Elizabeth National Park</h3>
+<p>Game drives, boat cruises and wildlife safaris.</p>
+</div>
+
+<div class="bg-white shadow-lg p-4">
+<h3 class="font-bold">Jinja Adventure Hub</h3>
+<p>White water rafting and Nile River experiences.</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section id="contact" class="bg-primary text-white py-16">
+
+<div class="container mx-auto px-6 text-center">
+
+<h2 class="text-3xl font-bold mb-6">
+Contact Us
+</h2>
+
+<p>Kyengera, Kasenge, Kazinga A, Wakiso District</p>
+
+<p class="mt-2">
+Tel: 0774097567 | 0704449777
+</p>
+
+<p class="mt-2">
+Email: francisbyebire84@gmail.com
+</p>
+
+</div>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer class="bg-black text-white p-6 text-center">
+
+<p>
+© 2026 Byebire Tour & Travel Co. Limited
+</p>
+
+</footer>
+
+</body>
+</html>
